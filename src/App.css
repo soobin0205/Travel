@@ -1,0 +1,72 @@
+/* App.css */
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+.board {
+  margin-top: 40px;
+}
+
+.post {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.post-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.post-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+.post-actions button {
+  margin-left: 5px;
+}
+
+.comment-list {
+  margin-top: 10px;
+  list-style: none;
+  padding-left: 0;
+}
+
+.comment-item {
+  margin-bottom: 5px;
+}
+
+.comment-actions {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.comment-actions button {
+  margin-left: 5px;
+}
+
+.comment-input {
+  margin-top: 10px;
+  display: flex;
+}
+
+.comment-input input {
+  flex: 1;
+  margin-right: 5px;
+}
+
+.comment-input button {
+  flex: 0;
+}
