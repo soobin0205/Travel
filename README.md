@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+## ✈️ MBTI로 알아보는 나의 여행 스타일 + 여행 게시판
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+> "당신은 여행할 때 계획파? 즉흥파?"  
+> MBTI 성향을 기반으로 나의 여행 스타일을 알아보고, 여행 게시판에서 여행 메이트를 찾을 수도 경험을 공유할 수도 있는 웹 서비스
 
-## Available Scripts
+## 📌 프로젝트 개요
+현대인은 여행 스타일이 제각각이라 함께 여행할 때 갈등이 생김  
+이를 해결하기 위해 **MBTI 기반의 여행 성향 테스트**를 제작하여 각자의 성향을 파악하고,  
+**게시판 기능**을 통해 여행 후기를 공유하며 여행 메이트를 찾을 수 있도록 구현함
 
-In the project directory, you can run:
 
-### `npm start`
+## 🚀 주요 기능
+- **MBTI 여행 성향 테스트**
+  - 12문항의 질문을 통해 MBTI 성향 도출
+  - 유형별 상세 여행 스타일 설명 제공
+  - 잘 맞는 / 맞지 않는 여행 메이트 추천
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **여행 게시판 (CRUD)**
+  - 게시물 작성 / 수정 / 삭제
+  - 글 삭제 및 업데이트 기능 구현 (useState 활용)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+## ⚙️ 기술 스택
+- **Frontend**: React, React Router DOM
+- **State 관리**: React Hooks (useState, useEffect)
+- **기타**: 반응형 레이아웃, 재사용 가능한 컴포넌트 구조
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## 🌟 성과 & 배운 점
+- **상태 관리(useState, useEffect)** 로직을 활용해 CRUD 기능 구현
+- **반응형 UI 설계**
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🔮 향후 개선 사항
+- DB 연동 (MySQL or MongoDB) → 게시판 데이터 영구 저장
+- 사용자 계정별 MBTI 기록 저장
+- 댓글 / 좋아요 기능
+- 여행 메이트 매칭 알고리즘 구현
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+  
